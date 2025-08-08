@@ -425,6 +425,10 @@ img {
 }
 
 /* Social media */
+.bottom-social-links-container {
+  margin-left: 120px;
+  margin-bottom: 132px;
+}
 .bottom-social-links-text {
   font-weight: 500;
   font-size: 16px;
@@ -543,11 +547,13 @@ img {
   justify-content: center;
   z-index: 999;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
 .modal-overlay.is-open {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
