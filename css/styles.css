@@ -395,12 +395,12 @@ img {
 .bottom-content {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: flex-start !important;
+  justify-content: flex-start !important ;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  gap: 0;
+  gap: 0 !important;
 }
 
 /* Logo */
@@ -416,7 +416,7 @@ img {
 }
 .bottom-logo-container {
   flex: 0 0 264px;
-  margin-right: 120px;
+  margin-right: 120px !important;
 }
 .logo-bottom-part {
   color: #f4f4fd;
@@ -431,8 +431,8 @@ img {
 /* Social media */
 .bottom-social-links-container {
   flex: 0 0 208px;
-  margin-right: 80px;
-  margin-bottom: 0;
+  margin-right: 80px !important;
+  margin-bottom: 0 !important;
 }
 .bottom-social-links-text {
   font-weight: 500;
@@ -475,17 +475,18 @@ img {
 .bottom-form-container {
   flex: 1 1 453px;
   max-width: 453px;
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 .bottom-form-text {
   margin-top: 16px;
   max-width: 264px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .bottom-form-input-and-btn {
@@ -494,6 +495,7 @@ img {
 }
 
 .bottom-form-input {
+  box-sizing: border-box;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
